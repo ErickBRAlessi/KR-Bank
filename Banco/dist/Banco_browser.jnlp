@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Banco_browser.jnlp">
+  <information>
+    <title>Banco</title>
+    <vendor>Erick Alessi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Banco.jar" size="47696" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.10.jar" size="724225" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="Banco.Controller.Main"  name="Banco" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
